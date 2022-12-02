@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "SyncStageSDK", url: "https://syncstage-sdk.s3.amazonaws.com/SyncStageSDK_0.1.0.xcframework.zip", checksum: "a2f3621b1524d3f4905d942693aefd385cfffb4d22cc6fa6b407bb4703e1e38b")
+        .binaryTarget(name: "SyncStageSDK", url: "https://syncstage-sdk.s3.amazonaws.com/SyncStageSDK_0.2.0.xcframework.zip", checksum: "7e4ae82efead0de15051f00af6f23ff890d2e9253d161e0b0073e6eb33095078")
     ],
     swiftLanguageVersions: [.v5]
 )
