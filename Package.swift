@@ -34,7 +34,7 @@ let package = Package(
             targets: ["libswresample"]),
         .library(
             name: "libswscale",
-            targets: ["libswscale"]),
+            targets: ["libswscale"])
     ],
     dependencies: [],
     targets: [
