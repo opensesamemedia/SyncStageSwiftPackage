@@ -48,5 +48,6 @@ let package = Package(
         .binaryTarget(name: "libswresample", url: "https://syncstage.s3.amazonaws.com/sdk/ios/libswresample_5.1.xcframework.zip", checksum: "27b7b8dc8f17fa161f499d040726566ff29f4e4e97e75fa065ae0744a199c534"),
         .binaryTarget(name: "libswscale", url: "https://syncstage.s3.amazonaws.com/sdk/ios/libswscale_5.1.xcframework.zip", checksum: "52c469fdd066c06fe3f929beec3e9da93bd166e2268d27494e1011c956f61688")
     ],
-    swiftLanguageVersions: [.v5]
+    swiftLanguageVersions: [.v5],
+    concurrency: .serial
 )
