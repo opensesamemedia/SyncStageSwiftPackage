@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "SyncStageSDK", url: "https://syncstage.s3.amazonaws.com/sdk/ios/SyncStageSDK_0.3.0.xcframework.zip", checksum: "dffc9349f24fad251b40988c696186d41b044467e5c70fd548feab6b051a61a2"),
+        .binaryTarget(name: "SyncStageSDK", url: "https://syncstage.s3.amazonaws.com/sdk/ios/SyncStageSDK_0.3.0.xcframework.zip", checksum: "2605324275b8ebae4c4cc1d99ab5e89f99dd94a23a5b1b43368e0594fd7e1440"),
         .binaryTarget(name: "ffmpegkit", url: "https://syncstage.s3.amazonaws.com/sdk/ios/ffmpegkit_5.1.xcframework.zip", checksum: "a32119d46dbc30a51cbb1f01a32cfe8a9043fbda45a3e90bfa5d4df2fa1865a3"),
         .binaryTarget(name: "libavcodec", url: "https://syncstage.s3.amazonaws.com/sdk/ios/libavcodec_5.1.xcframework.zip", checksum: "24f938f4333edc7863c365bf6afcc7a0af38502557622eb7e829e683c3343c6b"),
         .binaryTarget(name: "libavdevice", url: "https://syncstage.s3.amazonaws.com/sdk/ios/libavdevice_5.1.xcframework.zip", checksum: "9493272cc7dc112595fc198247e22b1f7c8bd22809a7c84f30556f338a486323"),
