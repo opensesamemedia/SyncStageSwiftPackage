@@ -10,31 +10,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "SyncStageSDK",
-            targets: ["SyncStageSDK"]),
-        .library(
-            name: "ffmpegkit",
-            targets: ["ffmpegkit"]),
-        .library(
-            name: "libavcodec",
-            targets: ["libavcodec"]),
-        .library(
-            name: "libavdevice",
-            targets: ["libavdevice"]),
-        .library(
-            name: "libavfilter",
-            targets: ["libavfilter"]),
-        .library(
-            name: "libavformat",
-            targets: ["libavformat"]),
-        .library(
-            name: "libavutil",
-            targets: ["libavutil"]),
-        .library(
-            name: "libswresample",
-            targets: ["libswresample"]),
-        .library(
-            name: "libswscale",
-            targets: ["libswscale"])
+            targets: ["SyncStageSDK","ffmpegkit","libavcodec","libavdevice","libavfilter","libavformat","libavutil","libswresample","libswscale"])
     ],
     dependencies: [],
     targets: [
