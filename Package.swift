@@ -14,15 +14,15 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "SyncStageSDK", url: "https://public.sync-stage.com/sdk/ios/0.6.1/SyncStageSDK_0.6.1.xcframework.zip", checksum: "475f5bee553ba87952ff7f42540993c40657c2c024f8bc41229747186c3e8e52"),
-        .binaryTarget(name: "ffmpegkit", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.9/ffmpegkit_5.1.9.xcframework.zip", checksum: "7f973baf280b51712eb61b0b3eaf3e803ecfe4e5420fdb7da7076c88c5203fc1"),
-        .binaryTarget(name: "libavcodec", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.9/libavcodec_5.1.9.xcframework.zip", checksum: "308fd4cba1413fc9e001f3afe4efc05b0c53603f350e2dd16d34643cb98b07a5"),
-        .binaryTarget(name: "libavdevice", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.9/libavdevice_5.1.9.xcframework.zip", checksum: "569b0f9835f2d6befb59e9b77fa17c2bcf2e1ecd1bed5c1fceebe8d0d2f4938c"),
-        .binaryTarget(name: "libavfilter", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.9/libavfilter_5.1.9.xcframework.zip", checksum: "eb22c029ebfa5a6bef7f6745bb7ad279af4144debb8fc941cc4bd1c228c7b9f2"),
-        .binaryTarget(name: "libavformat", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.9/libavformat_5.1.9.xcframework.zip", checksum: "44c04a60b6afac5fb55a62bc1a3959d25d60b5257ca6149d1b301f8fa01e9310"),
-        .binaryTarget(name: "libavutil", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.9/libavutil_5.1.9.xcframework.zip", checksum: "7167f731f0652fb8e9db8711ad420e31ee86c8670eeea7e12f47ec46abb27c70"),
-        .binaryTarget(name: "libswresample", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.9/libswresample_5.1.9.xcframework.zip", checksum: "1c98b7083a85f5fa9b79d1f2397656e9f809eb8574793d2633636336b6f11076"),
-        .binaryTarget(name: "libswscale", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.9/libswscale_5.1.9.xcframework.zip", checksum: "50ec59fee4b984b07bae8fea609c8130bcc6ad43224fd32abf529ada474cb44d")
+        .binaryTarget(name: "SyncStageSDK", url: "https://public.sync-stage.com/sdk/ios/0.6.2/SyncStageSDK_0.6.2.xcframework.zip", checksum: "ebbe3e51c158a5aadc6f4eafcfbf9daf1a7f88addd850c2a56c7a4658ebce0e9"),
+        .binaryTarget(name: "ffmpegkit", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.11/ffmpegkit_5.1.11.xcframework.zip", checksum: "9c188d05f25bf5268557940808bfe8707cf279e263add873f7f4ae2889d75a35"),
+        .binaryTarget(name: "libavcodec", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.11/libavcodec_5.1.11.xcframework.zip", checksum: "838d5ed1cab264edeef9dc50e9702ada1c99942f73b8e3f3e80254d3a3170e01"),
+        .binaryTarget(name: "libavdevice", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.11/libavdevice_5.1.11.xcframework.zip", checksum: "8478447b78386e4c7a6f8ed3319e11e12327f2397915b9409b0bf63c3708bd80"),
+        .binaryTarget(name: "libavfilter", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.11/libavfilter_5.1.11.xcframework.zip", checksum: "2b85fe70969e112e170924b96e8533f4aeb50879826e5399e715b5fe0af9bd7a"),
+        .binaryTarget(name: "libavformat", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.11/libavformat_5.1.11.xcframework.zip", checksum: "f01918a19a10f8fc41ca6d72018ae37be3b3c0be486bc159eca8fba2c672e780"),
+        .binaryTarget(name: "libavutil", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.11/libavutil_5.1.11.xcframework.zip", checksum: "c3a7216a7978a207cd5d378f3dfee40d6bb9c81d16a04b46b5f1668a79e81b43"),
+        .binaryTarget(name: "libswresample", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.11/libswresample_5.1.11.xcframework.zip", checksum: "79f710ef48931d89c459201f14e5aa8e5878a295be320d46b5551d97710bc768"),
+        .binaryTarget(name: "libswscale", url: "https://public.sync-stage.com/sdk/ios/ffmpeg/5.1.11/libswscale_5.1.11.xcframework.zip", checksum: "f4a2aaa42bb629a590f8a281b7e7590e2a58503b7f0f4536696b10da5ca78b3d")
     ],
     swiftLanguageVersions: [.v5]
 )
